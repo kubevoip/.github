@@ -6,11 +6,11 @@
 
 KubeVoIP is a Kubernetes-native SIP and VoIP platform.
 
-It uses Kubernetes APIs to run Kamailio gateways, RTPengine media relays,
-Asterisk application pods, and PostgreSQL-backed routing for SIP users, trunks,
-dial policies, and call routes.
+It uses Kubernetes APIs for Kamailio gateways, RTPengine media relays, Asterisk
+application pods, and PostgreSQL-backed routing for SIP users, trunks, dial
+policies, and call routes.
 
-## Start Here
+## Start here
 
 - Website: [kubevoip.com](https://kubevoip.com)
 - Documentation: [docs.kubevoip.com](https://docs.kubevoip.com)
