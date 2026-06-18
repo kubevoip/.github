@@ -35,12 +35,6 @@ helm install kubevoip oci://ghcr.io/kubevoip/charts/kubevoip \
 
 See the documentation for the current chart version and full quickstart.
 
-## Project Status
-
-KubeVoIP is early alpha. It is suitable for testing, labs, and early adopters
-who are comfortable with Kubernetes, SIP, and PostgreSQL. Production hardening
-is ongoing.
-
 ## Security
 
 Please report security issues through the platform repository:
