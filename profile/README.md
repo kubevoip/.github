@@ -4,6 +4,8 @@
 
 # KubeVoIP
 
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/kubevoip)](https://artifacthub.io/packages/search?repo=kubevoip)
+
 KubeVoIP is a Kubernetes-native SIP and VoIP platform.
 
 It uses Kubernetes APIs for Kamailio gateways, RTPengine media relays, Asterisk
