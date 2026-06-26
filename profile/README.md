@@ -19,7 +19,8 @@ policies, and call routes.
 
 ## Repositories
 
-- [`kubevoip`](https://github.com/kubevoip/kubevoip): operator, CRDs, Helm chart, examples, docs automation, and integration tests.
+- [`kubevoip`](https://github.com/kubevoip/kubevoip): operator, CRDs, examples, docs automation, and integration tests.
+- [`charts`](https://github.com/kubevoip/charts): Helm chart source and chart repository publishing.
 - [`kubevoip-kamailio`](https://github.com/kubevoip/kubevoip-kamailio): Kamailio runtime image.
 - [`kubevoip-rtpengine`](https://github.com/kubevoip/kubevoip-rtpengine): RTPengine runtime image.
 - [`kubevoip-asterisk`](https://github.com/kubevoip/kubevoip-asterisk): Asterisk runtime image.
@@ -29,7 +30,10 @@ policies, and call routes.
 ## Install
 
 ```bash
-helm install kubevoip oci://ghcr.io/kubevoip/charts/kubevoip \
+helm repo add kubevoip https://charts.kubevoip.com
+helm repo update
+helm install kubevoip kubevoip/kubevoip \
+  --version 0.6.7 \
   --namespace telephony --create-namespace
 ```
 
